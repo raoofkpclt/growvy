@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Growvy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Work+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-grow text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg navbar-dark px-lg-5">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+          <h2 class="mb-0 text-uppercase">
+            <i class="fa-regular me-1"></i>Growvy
+          </h2>
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler me-4"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav mx-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="service.html" class="nav-item nav-link">Services</a>
+            
+            <a href="clients.html" class="nav-item nav-link">Our Clients</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <div class="d-none d-lg-flex">
+            <a class="btn btn-outline-primary border-2" href="">Language </a>
+          </div>
+        </div>
+      </nav>
+
+      <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="title mx-5 px-5 animated slideInDown">
+                <div class="title-center">
+                  <h1 class="display-1">Branding Beyond Designing</h1>
+                </div>
+              </div>
+              <p class="fs-5 mb-5 animated slideInDown">
+                Branding extends beyond design into strategy, experience, and culture.<br />
+We build brands defined by meaning, not just appearance.
+              </p>
+              <a
+                href="about.html"
+                class="btn btn-outline-primary border-2 py-3 px-5 animated slideInDown"
+                >Explore More</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="title mx-5 px-5 animated slideInDown">
+                <div class="title-center">
+                  
+                  <h1 class="display-1">Brand Transformation Agency</h1>
+                </div>
+              </div>
+              <p class="fs-5 mb-5 animated slideInDown">
+                We partner with brands ready for change, growth, and reinvention. <br>
+Transforming how brands think, feel, and perform in a changing world.
+              </p>
+              <a
+                href="#!"
+                class="btn btn-outline-primary border-2 py-3 px-5 animated slideInDown"
+                >Explore More</a
+              >
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <!-- About Start -->
+<div class="container-fluid bg-secondary text-center">
+  <div class="container">
+    <div class="row g-5 justify-content-center align-items-center">
+      <div class="col-lg-7 pb-0 pb-lg-5 py-5">
+        <div class="pb-0 pb-lg-5 py-5">
+
+          <div class="title wow fadeInUp" data-wow-delay="0.1s">
+            <div class="title-left-left">
+              <!-- <h5>History</h5> -->
+              <h1>About us</h1>
+            </div>
+          </div>
+
+          <p class="mb-4 wow fadeInUp" data-wow-delay="0.2s">
+            Growvy is a growth-focused marketing agency built on the belief of Branding Beyond Design. We help brands grow through smart strategy, creative thinking, and performance-driven marketing. We go beyond visuals to build strong brand identities, clear messaging, and campaigns that deliver real results. From branding to digital marketing, every solution is designed to scale your business.
+Growvy is your growth partner.
+
+          </p>
+
+          <!-- <ul
+            class="list-group list-group-flush mb-5 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <li class="list-group-item bg-dark text-body border-secondary">
+              <i class="fa fa-check-circle text-primary me-1"></i>
+              Lorem ipsum dolor sit amet consectetur elit.
+            </li>
+            <li class="list-group-item bg-dark text-body border-secondary">
+              <i class="fa fa-check-circle text-primary me-1"></i>
+              Donec vehicula, sem ut tempus tempus.
+            </li>
+            <li class="list-group-item bg-dark text-body border-secondary">
+              <i class="fa fa-check-circle text-primary me-1"></i>
+              Morbi mi dapibus, feugiat nisi non mollis justo.
+            </li>
+          </ul> -->
+
+          <div class="row wow fadeInUp justify-content-center" data-wow-delay="0.4s">
+            <div class="col-6 col-md-4 mb-2">
+              <a
+                href="contact.html"
+                class="btn btn-outline-primary border-2 py-3 w-100"
+              >
+                Schedule A Meeting
+              </a>
+            <!-- </div>
+            <div class="col-6 col-md-4 mb-2">
+              <a href="#!" class="btn btn-primary py-3 w-100">
+                Schedule A Meeting
+              </a>
+            </div> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About End -->
+
+
+ <!-- Service Start -->
+<div class="container-fluid py-5">
+  <div class="container py-5">
+    <div class="text-center">
+      <div class="title wow fadeInUp" data-wow-delay="0.1s">
+        <div class="title-center">
+          <h5>Services</h5>
+          <h1>How We Help You</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Media Marketing -->
+    <div class="service-item service-item-left">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-5">
+          <div class="service-img p-5 wow fadeInRight" data-wow-delay="0.2s">
+            <img class="img-fluid rounded-circle" src="img/service-1.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="service-text px-5 px-md-0 py-md-5 wow fadeInRight" data-wow-delay="0.5s">
+            <h3 class="text-uppercase">Social Media Marketing</h3>
+            <p class="mb-4">
+              We build and manage a strong brand presence across social media platforms through
+              creative content, consistent posting, audience engagement, and community building.
+              Our approach focuses on growing visibility, building trust, and turning followers
+              into loyal customers.
+            </p>
+            <a class="btn btn-outline-primary border-2 px-4" href="/service.html">
+              Read More <i class="fa fa-arrow-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Performance Marketing -->
+    <div class="service-item service-item-right">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-5 order-md-1 text-md-end">
+          <div class="service-img p-5 wow fadeInLeft" data-wow-delay="0.2s">
+            <img class="img-fluid rounded-circle" src="img/service-2.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="service-text px-5 px-md-0 py-md-5 text-md-end wow fadeInLeft" data-wow-delay="0.5s">
+            <h3 class="text-uppercase">Performance Marketing</h3>
+            <p class="mb-4">
+              We plan and execute data-driven paid advertising campaigns across digital platforms
+              to drive traffic, generate quality leads, and increase conversions. Every campaign
+              is continuously monitored and optimized to ensure measurable results and maximum ROI.
+            </p>
+            <a class="btn btn-outline-primary border-2 px-4" href="/service.html">
+              Read More <i class="fa fa-arrow-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEO -->
+    <div class="service-item service-item-left">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-5">
+          <div class="service-img p-5 wow fadeInRight" data-wow-delay="0.2s">
+            <img class="img-fluid rounded-circle" src="img/service-3.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="service-text px-5 px-md-0 py-md-5 wow fadeInRight" data-wow-delay="0.5s">
+            <h3 class="text-uppercase">Search Engine Optimization (SEO)</h3>
+            <p class="mb-4">
+              Our SEO services improve your website’s visibility and rankings through keyword
+              research, on-page optimization, technical SEO, content optimization, and local SEO.
+              We help brands attract the right audience, generate qualified leads, and achieve
+              long-term organic growth.
+            </p>
+            <a class="btn btn-outline-primary border-2 px-4" href="/service.html">
+              Read More <i class="fa fa-arrow-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content Marketing -->
+    <div class="service-item service-item-right">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-5 order-md-1 text-md-end">
+          <div class="service-img p-5 wow fadeInLeft" data-wow-delay="0.2s">
+            <img class="img-fluid rounded-circle" src="img/service-4.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="service-text px-5 px-md-0 py-md-5 text-md-end wow fadeInLeft" data-wow-delay="0.5s">
+            <h3 class="text-uppercase">Content Marketing</h3>
+            <p class="mb-4">
+              We create engaging, high-quality content including visuals, videos, reels, captions,
+              and written content that tells your brand story. Our content strategies build authority,
+              attract attention, and support both organic and paid marketing efforts.
+            </p>
+            <a class="btn btn-outline-primary border-2 px-4" href="/service.html">
+              Read More <i class="fa fa-arrow-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Influencer Marketing -->
+    <div class="service-item service-item-left">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-5">
+          <div class="service-img p-5 wow fadeInRight" data-wow-delay="0.2s">
+            <img class="img-fluid rounded-circle" src="img/service-5.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="service-text px-5 px-md-0 py-md-5 wow fadeInRight" data-wow-delay="0.5s">
+            <h3 class="text-uppercase">Influencer Marketing</h3>
+            <p class="mb-4">
+              We collaborate with relevant influencers and creators who align with your brand values.
+              Through authentic partnerships, we help brands increase reach, build credibility,
+              and connect with new audiences meaningfully.
+            </p>
+            <a class="btn btn-outline-primary border-2 px-4" href="/service.html">
+              Read More <i class="fa fa-arrow-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Website Building -->
+    <div class="service-item service-item-right">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-5 order-md-1 text-md-end">
+          <div class="service-img p-5 wow fadeInLeft" data-wow-delay="0.2s">
+            <img class="img-fluid rounded-circle" src="img/service-6.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="service-text px-5 px-md-0 py-md-5 text-md-end wow fadeInLeft" data-wow-delay="0.5s">
+            <h3 class="text-uppercase">Website Building</h3>
+            <p class="mb-4">
+              We design and develop responsive, user-friendly, conversion-focused websites that
+              reflect your brand identity. Our websites are built to perform across devices and
+              support your marketing and business goals.
+            </p>
+            <a class="btn btn-outline-primary border-2 px-4" href="/service.html">
+              Read More <i class="fa fa-arrow-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Marketing Strategy -->
+    <div class="service-item service-item-left">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-5">
+          <div class="service-img p-5 wow fadeInRight" data-wow-delay="0.2s">
+            <img class="img-fluid rounded-circle" src="img/service-7.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="service-text px-5 px-md-0 py-md-5 wow fadeInRight" data-wow-delay="0.5s">
+            <h3 class="text-uppercase">Marketing Strategy & Planning</h3>
+            <p class="mb-4">
+              We develop customized marketing strategies based on your business objectives,
+              audience insights, and market research. Our planning ensures every marketing activity
+              is aligned, effective, and focused on sustainable growth.
+            </p>
+            <a class="btn btn-outline-primary border-2 px-4" href="/service.html">
+              Read More <i class="fa fa-arrow-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Service End -->
+
+
+    <!-- Banner Start -->
+    <div class="container-fluid py-5 bg-secondary">
+      <div class="container py-5">
+        <div class="row g-0 justify-content-center">
+          <div class="col-lg-7 text-center">
+            <div class="title  wow fadeInUp" data-wow-delay="0.1s">
+              <div class="title-center">            <h1>Get a free <br>Consultation</h1>
+              </div>
+            </div>
+            <p class="fs-5 mb-5 wow fadeInUp" data-wow-delay="0.2s">
+              Let’s explore your goals, challenges, and opportunities in a focused one-on-one session.
+Get expert guidance and a clear roadmap to help your brand grow with confidence.
+            </p>
+            <div class="position-relative wow fadeInUp" data-wow-delay="0.3s">
+              <input
+                class="form-control border-0 bg-dark rounded-pill w-100 py-4 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-3 px-4 position-absolute top-0 end-0 me-2"
+                style="margin-top: 7px"
+              >
+                Send Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner End -->
+
+ 
+
+    <!-- Team Start -->
+     <div class="container-fluid py-5">
+  <div class="container py-5">
+    <div class="text-center">
+      <div class="title wow fadeInUp" data-wow-delay="0.1s">
+        <div class="title-center">
+          <h5>Clients</h5>
+          <h1>our Clients</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-wrapper">
+      <div class="carousel-track">
+        
+        
+       
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="team-item">
+              <div class="team-body">
+                
+                  <img class="img-fluid" src="img/team-1.jpg" alt="">
+                
+              </div>
+              <a class="team-name" href="#">
+                <h5 class="text-uppercase mb-0">Transfer Market</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="team-item">
+              <div class="team-body">
+                
+                  <img class="img-fluid" src="img/team-2.jpg" alt="">
+                
+              </div>
+              <a class="team-name" href="#">
+                <h5 class="text-uppercase mb-0">Lulu Optics</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-item">
+              <div class="team-body">
+                
+ <img class="img-fluid" src="img/team-demo.jpg" alt="">                
+              </div>
+              <a class="team-name" href="#">
+                <h5 class="text-uppercase mb-0">Loading...</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="team-item">
+              <div class="team-body">
+                
+ <img class="img-fluid" src="img/team-demo.jpg" alt="">                
+              </div>
+              <a class="team-name" href="#">
+                <h5 class="text-uppercase mb-0">Loading...</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="team-item">
+              <div class="team-body">
+                
+ <img class="img-fluid" src="img/team-demo.jpg" alt="">                
+              </div>
+              <a class="team-name" href="#">
+                <h5 class="text-uppercase mb-0">Loading...</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="team-item">
+              <div class="team-body">
+                
+ <img class="img-fluid" src="img/team-demo.jpg" alt="">                
+              </div>
+              <a class="team-name" href="#">
+                <h5 class="text-uppercase mb-0">Loading...</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-item">
+              <div class="team-body">
+                
+ <img class="img-fluid" src="img/team-demo.jpg" alt="">               
+              </div>
+              <a class="team-name" href="#">
+                <h5 class="text-uppercase mb-0">Loading... </h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="team-item">
+              <div class="team-body">
+                
+                  <img class="img-fluid" src="img/team-demo.jpg" alt="">
+                
+              </div>
+              <a class="team-name" href="#">
+                <h5 class="text-uppercase mb-0">Loading...</h5>
+              </a>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5 bg-secondary">
+      <div class="container py-5">
+        <div class="text-center">
+          <div class="title wow fadeInUp" data-wow-delay="0.1s">
+            <div class="title-center">
+              <h5>Testimonial</h5>
+              <h1>Our Clients Say</h1>
+            </div>
+          </div>
+        </div>
+        <div
+          class="owl-carousel testimonial-carousel wow fadeInUp"
+          data-wow-delay="0.3s"
+        >
+          <div
+            class="testimonial-item text-center"
+            data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>"
+          >
+            <p class="fs-5">
+              Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo
+              duo labore sed sed. Magna ut diam sit et amet stet eos sed clita
+              erat magna elitr erat sit sit erat at rebum justo sea clita.
+            </p>
+            <h5 class="text-uppercase">Joanne Irwin</h5>
+            <span class="text-primary">Profession</span>
+          </div>
+          <div
+            class="testimonial-item text-center"
+            data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>"
+          >
+            <p class="fs-5">
+              Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo
+              duo labore sed sed. Magna ut diam sit et amet stet eos sed clita
+              erat magna elitr erat sit sit erat at rebum justo sea clita.
+            </p>
+            <h5 class="text-uppercase">Lana Anderson</h5>
+            <span class="text-primary">Profession</span>
+          </div>
+          <div
+            class="testimonial-item text-center"
+            data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>"
+          >
+            <p class="fs-5">
+              Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo
+              duo labore sed sed. Magna ut diam sit et amet stet eos sed clita
+              erat magna elitr erat sit sit erat at rebum justo sea clita.
+            </p>
+            <h5 class="text-uppercase">Pamela Torney</h5>
+            <span class="text-primary">Profession</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container text-center py-5">
+        <a href="index.html">
+          <h1 class="display-4 mb-3 text-white text">
+            <i class="me-1"></i>Growvy
+          </h1>
+        </a>
+        <div class="d-flex justify-content-center mb-4">
+         
+          <a
+            class="btn btn-lg-square btn-outline-primary border-2 m-1"
+            href="#!"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-lg-square btn-outline-primary border-2 m-1"
+            href="https://www.instagram.com/growvyofficial?igsh=bTIzajQ2aHE5b2I="
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            class="btn btn-lg-square btn-outline-primary border-2 m-1"
+            href="#!"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="btn btn-lg-square btn-outline-primary border-2 m-1"
+            href="#!"
+          >
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+        <p>
+          &copy; <a class="border-bottom" href="#">www.growvy.com</a>, All Right
+          Reserved.
+        </p>
+
+       </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-outline-primary border-2 btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
