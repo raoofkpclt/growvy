@@ -525,3 +525,48 @@
 
 
 
+/* Service text container */
+.service-text {
+  padding: 3rem;
+}
+
+/* 🔹 Heading – clean & professional */
+.service-title {
+  text-align: left;              /* ✅ FIX: no justify */
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  max-width: 90%;
+}
+
+/* 🔹 Description – justified */
+.service-desc {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .service-text {
+    padding: 1.5rem;
+  }
+
+  .service-title {
+    max-width: 100%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+  .service-text {
+    padding: 0;
+  }
+
+  .service-title {
+    text-align: center;          /* 🔥 Optional: better on mobile */
+  }
+}
