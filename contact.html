@@ -299,10 +299,66 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
 <script>
   (function () {
-    emailjs.init("TD5vWtg0JoI1yQKJc"); // ✅ Public Key only
+    emailjs.init("TD5vWtg0JoI1yQKJc");
+  })();
+
+  document
+    .getElementById("contactForm")
+    .addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const form = this;
+
+      Swal.fire({
+        title: "Are you sure?",
+        text: "Do you want to submit this enquiry?",
+        icon: "question",
+        showCancelButton: true,
+        confirmButtonText: "Yes, submit",
+        cancelButtonText: "Cancel",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          emailjs.sendForm(
+            "service_pjioqs6",
+            "template_88vp12d",
+            form
+          ).then(
+            function () {
+              Swal.fire({
+                icon: "success",
+                title: "Sent!",
+                text: "Thank you! Your enquiry has been sent.",
+              });
+              form.reset();
+            },
+            function (error) {
+              Swal.fire({
+                icon: "error",
+                title: "Failed",
+                text: "Failed to send enquiry. Please try again.",
+              });
+              console.error(error);
+            }
+          );
+        }
+      });
+    });
+</script>
+
+
+
+
+<!-- 
+<script>
+  (function () {
+    emailjs.init("TD5vWtg0JoI1yQKJc"); 
   })();
 
   document
@@ -311,8 +367,8 @@
       e.preventDefault();
 
       emailjs.sendForm(
-        "service_pjioqs6",      // ✅ Service ID
-        "template_88vp12d",   // ✅ Template ID
+        "service_pjioqs6",
+        "template_88vp12d",
         this
       ).then(
         function () {
@@ -325,7 +381,7 @@
         }
       );
     });
-</script>
+</script> -->
 
 
 </html>

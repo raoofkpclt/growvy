@@ -567,6 +567,56 @@
   }
 
   .service-title {
-    text-align: center;          /* 🔥 Optional: better on mobile */
+    text-align: center;
   }
 }
+
+
+.team-item {
+  border-radius: 12px;
+  overflow: hidden; /* important for rounded images */
+}
+
+.team-body img {
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+  .swal2-popup {
+    background: #0f0f0f !important;
+    color: #ffffff !important;
+    border-radius: 12px;
+  }
+
+  .swal2-title {
+    color: #ffffff !important;
+  }
+
+  .swal2-html-container {
+    color: #cccccc !important;
+  }
+
+  .swal2-confirm {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-radius: 6px;
+  }
+
+  .swal2-cancel {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+    border-radius: 6px;
+  }
+
+  .swal2-icon.swal2-question,
+  .swal2-icon.swal2-success,
+  .swal2-icon.swal2-error {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+  }
+
